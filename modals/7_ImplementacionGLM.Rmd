@@ -1,0 +1,50 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h1> <b> Librerías utilizadas </b> </h1> </center>
+
+La librería en **R** utilizada para la estimación del modelo implementado en inferencia fue **glmulti**, elaborada por Vincent Calcagno (2019). 
+
+<div class="definition_box">
+<i> Esta librería permite la selección automática de modelos con las variables que se le especifique a la función principal: *glmulti*, a través de métodos de selección exhaustiva o algoritmos genéticos.</i>
+</div>
+
+
+<span style="padding-left:15px">
+
+<center><img src="figs/meme.png" width="80%"></center>
+
+<span style="padding-left:15px">
+
+
+<center> <h1> <b> Código utilizado </b> </h1> </center>
+
+La función implementada fue la siguiente:
+
+```{r eval=FALSE}
+library(glmulti)
+formula = as.formula(paste(VariableDependiente, "~", paste(VariableIndependiente, collapse  = "+"))
+ModeloInferencia = glmulti(y = formula,
+                         data = Train,
+                         plotty = T, 
+                         level = 1, 
+                         family = binomial(link = "logit"),
+                         crit = "aic",
+                         report = T,
+                         method = "g")
+```
+
+<span style="padding-left:15px">
+
+<center><img src="figs/runR.jfif" width="50%"></center>
+
+<span style="padding-left:15px">
+
+[Resultados del modelo](https://karencalva.shinyapps.io/CursoNivelacionEPN/)

@@ -1,0 +1,44 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h1> <b> Metodología </b> </h1> </center>
+
+Partimos del ***aprendizaje automático***, que responde a dos tipos de problemas:
+
++ **Análisis supervisado:**
+  + Regresión
+  + Clasificación
++ **Análisis no supervisado:**
+  + Reducción de dimensionalidad
+  + Técnicas de agrupamiento
+
+<span style="padding-left:15px">
+
+<center><img src="figs/4_ML.jfif" width="100%"></center>
+
+<span style="padding-left:15px">
+
+Se tienen dos objetivos principales, con metodologías distintas:
+
++ **Predicción:** Construir un modelo automatizado en el software estadístico R para predecir la probabilidad de reprobación de los estudiantes.
+
+<span style="padding-left:15px">
+
+<center><img src="figs/4_Prediccion.jfif" width="100%"></center>
+
+<span style="padding-left:15px">
+
++ **Inferencia:** Determinar las variables explicativas del rendimiento académico.
+
+<span style="padding-left:15px">
+
+<center><img src="figs/inference.jfif" width="100%"></center>
+
+<span style="padding-left:15px">

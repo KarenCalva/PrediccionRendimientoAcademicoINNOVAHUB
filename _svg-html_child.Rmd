@@ -1,0 +1,13 @@
+<script src="libs/d3.v5.min.js"></script>
+<script src="libs/infographiq.js"></script>
+<link href="libs/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="libs/bootstrap-toggle.min.js"></script>
+
+
+<div class = "col-md-12">
+  <div id = "svg"></div>
+</div>
+
+<script>
+link_svg(svg = "`r params$svg`", csv = "`r params$csv`", debug = true);
+</script>

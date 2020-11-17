@@ -1,0 +1,20 @@
+---
+title: "Expositor"
+---
+
+[Karen Calva](https://www.linkedin.com/in/karen-priscila-calva-2381b34a/)
+
+<img src="karen.jpg" width="200">
+
+
+
+Soy Karen Priscilla Calva Yaguana, Ingeniera Matemática especializada en
+estadística y ciencia de datos, graduada en la Escuela Politécnica Nacional.
+Actualmente me desempeño como especialista de analítica avanzada
+en Produbanco Grupo Promérica y como consultora independiente en
+temas de geo-estadística, gestión de procesos y logística en levantamiento
+de información, desarrollo de aplicativos web con motores analíticos y
+aprendizaje automático. Adicionalmente trabajo como profesora asociada
+a la Sociedad Ecuatoriana de Estadística dictando cursos relacionados al manejo de software
+libre y técnicas estadísticas. Al momento estoy cursando el Máster de
+Dirección Logística en la Universidad Internacional de La Rioja.

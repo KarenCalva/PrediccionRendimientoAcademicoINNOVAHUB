@@ -1,0 +1,60 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h1> <b> Modelo inferencial: Regresión logística </b> </h1> </center>
+
+<span style="padding-left:15px">
+
++ Modelo utilizado en la inferencia para entender el rol de variables de entrada importantes al explicar una variable respuesta categórica $Y$.
++ Se modela la probabilidad de que suceda el evento de interés, condicionado a un vector de variables explicativas $Pr(Y=1|X)$, dada por:
+    
+\[p(X)=\frac{e^{\beta_0+\beta_1X_1+...+\beta_pX_p}}{1+e^{\beta_0+\beta_1X_1+...+\beta_pX_p}}\]
+
++ A partir de la cual llegamos a expresar:
+    
+\[\log\left(\frac{p(X)}{1-p(X)}\right)=\beta_0+\beta_1X_1+...+\beta_pX_p\]
+
++ La regresión es estimada a partir de la maximización de la función del logaritmo de verosimilitud (cóncava), utilizando el algoritmo de Newton-Rhapson.
+
+<span style="padding-left:15px">
+
+<center><img src="figs/logistic_regression.jfif" width="80%"></center>
+
+<span style="padding-left:15px">
+
+<center> <h1> <b> Optimización del modelo: Algoritmo genético </b> </h1> </center>
+
+<span style="padding-left:15px">
+
++ Se busca un modelo parsimonioso que envuelva un subconjunto de variables de entrada adecuado. 
++ *Primera idea:* selección exhaustiva.
+
+<span style="padding-left:15px">
+
+<center><img src="figs/exhaustive.png" width="95%"></center>
+
+<span style="padding-left:15px">
+
++ El algoritmo genético explora solo un subconjunto de todos los posibles modelos, con sesgo hacia los mejores.
++ Se codifican vectores de ceros y unos para indicar qué términos están presentes y cuáles no dentro de la regresión y se pasa por un proceso de ***evolución adaptativa***.
++ Se producen modelos de tres maneras: (1) reproducción asexual, (2) reproducción sexual e (3) inmigración.
++ En cada generación se estimará modelos con su respectiva *aptitud*, denotada por $\omega$:
+
+\[\omega_i=\exp(-(AIC_i-AIC_{mejor}))\]
+
++ El algoritmo genético se detendrá cuando el AIC caiga bajo un umbral específico.
+
+<span style="padding-left:15px">
+
+<center><img src="figs/genetic_algorithm.jpg" width="80%"></center>
+
+<span style="padding-left:15px">
+
+Más información, aquí: https://towardsdatascience.com/feature-selection-using-genetic-algorithms-in-r-3d9252f1aa66

@@ -1,0 +1,27 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h1> <b> Caso de estudio: Escuela Politécnica Nacional </b> </h1> </center>
+
+<span style="padding-left:15px">
+
+<center><img src="figs/2_CasoEstudioEPN.jpg" width="90%"></center>
+
+<span style="padding-left:15px">
+
+Se busca:
+
+<div class="definition_box">
+<i> **Entender** los factores que inciden en el rendimiento académico de los estudiantes en el curso de nivelación de la Escuela Politécnica Nacional, ya que ellos son los principales perjudicados de la alta tasa de reprobación, a la vez que se propone un modelo automatizado en el software estadístico R para **predecir** su probabilidad de reprobación, que permita tomar acciones tempranas en su beneficio, así como la planificación de recursos físicos y de planta docente.</i>
+</div>
+
+
+
+

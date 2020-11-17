@@ -1,0 +1,11 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[Aplicacion con resultados](https://karencalva.shinyapps.io/CursoNivelacionEPN/)

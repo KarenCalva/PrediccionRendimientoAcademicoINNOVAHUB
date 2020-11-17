@@ -1,0 +1,36 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h1> <b> Conclusiones del modelo predictivo </b> </h1> </center>
+
+<span style="padding-left:5px">
+
++ Utilidad de combinar modelos con objetivos de predicción e inferencia.
++ Utilidad de las técnicas de aprendizaje supervisado.
++ Gradient Boosting Machine (GBM) tiene buenos resultados en la predicción de si un estudiante aprobará o no el curso de nivelación, potenciado a través de validación cruzada.
+
+<span style="padding-left:5px">
+<center><img src="figs/gbm_yoda.jpg" width="40%"></center>
+
+<span style="padding-left:5px">
+
+<center> <h1> <b> Recomedaciones y oportunidades de mejora </b> </h1> </center>
+
+<span style="padding-left:5px">
+
++ Realizar seguimiento a los resultados del modelo GBM para analizar posibles cambios debido a nuevos efectos que puedan surgir con el paso del tiempo, sea debido a fenómenos externos o propios al curso de nivelación.
++ Sociabilizar el modelo para permitir que otras facultades, e incluso, otras instituciones puedan hacer de esta herramienta y así aportar a la mejora de las condiciones de aprobación en instituciones de educación superior.
++ Utilización de un modelo XGBoost.
+
+<span style="padding-left:5px">
+
+<center><img src="figs/xgboost.jpeg" width="60%"></center>
+
+<span style="padding-left:5px">

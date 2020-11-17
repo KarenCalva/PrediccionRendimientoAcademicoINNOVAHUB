@@ -1,0 +1,23 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h1> <b> Motivación </b> </h1> </center>
+
+<span style="padding-left:15px">
+
++ En los cursos de nivelación, la oferta académica depende del rendimiento académico.
++ Reprobación alta $\rightarrow$ **más** estudiantes recursando $\rightarrow$ **menos** cupos. 
++ Característica cuantificable $\rightarrow$ criterio para medir éxito o fracaso a través de calificaciones.
++ **Bajo promedio académico** es problemática de las universidades $\rightarrow$ barrera académica $\rightarrow$ oferta académica insuficiente.
++ **Corto plazo:** dificultad para incrementar planta docente y espacios físicos.
+
+<span style="padding-left:30px">
+
+<center><img src="figs/3_Motivacion_meme.jfif" width="70%"></center>

@@ -1,0 +1,28 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center> <h1> <b> Datos </b> </h1> </center>
+
+**Variable dependiente:**
+
+\[Reprueba = \displaystyle\left\lbrace \begin{array}{ll} 1 & 
+ \mbox{si el estudiante reprueba},
+\\ 0 & \mbox{si no.}\end{array}\right.\]
+
+**Variables independientes:**
+
++ *Sociodemográficas:* Sexo, Estado civil,  Etnia y Edad. 
++ *Bagaje y familiares:* Número de miembros en el núcleo familiar, Ingreso mensual, Tipo colegio y Residencia.
++ *Académicas:* Promedio ponderado del primer bimestre, Calificación de postulación, Calificación del primer bimestre, Número de materias tomadas, Número de matrícula, Segmento poblacional y Número de créditos por materia.
++ *Institucionales:* Curso de nivelación, Semestre del año, Jornada, Materia y Carrera a la que aspira.
+
+<span style="padding-left:15px">
+
+<center><img src="figs/data_input.jpg" width="60%"></center>
