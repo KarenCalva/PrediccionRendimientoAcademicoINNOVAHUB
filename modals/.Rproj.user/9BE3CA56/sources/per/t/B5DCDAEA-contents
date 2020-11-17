@@ -1,0 +1,36 @@
+---
+output: 
+  html_document:
+    css: Estilos.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<center> <h1> <b> Predicción en la investigación: Científicos y adivinos </b> </h1> </center>
+
+<div class="definition_box">
+<i> En la investigación, la predicción cumple uno de los deseos básicos de la humanidad: percibir el futuro y saber lo que nos depara el destino. </i>
+</div>
+
+<span style="padding-left:30px">
+
+<center><img src="figs/pre.jpg" width="50%"></center>
+
+
+Estas predicciones pueden tener efectos de gran alcance y dirigir disciplinas científicas enteras, como en el caso de la **Relatividad** y la **Evolución** de Darwin, que han apoyado la investigación en la Física y la Biología por muchos años. Por otra parte, los experimentos más pequeños también pueden tener ramificaciones más amplias y permitir que la humanidad prediga y, por lo tanto, evite determinados eventos futuros.
+
+
+Como parte de la búsqueda de la humanidad por comprender la naturaleza, la ciencia predictiva está mucho más diseminada que antes. Gran parte de esto se debe al crecimiento exponencial de la capacidad de procesamiento, que permite **modelos progresivamente más detallados y precisos**. 
+
+
+<center> <h1> <b> Rendimiento académico </b> </h1> </center>
+
+<div class="definition_box">
+<i> Es el producto de la asimilación del contenido de los programas de estudio, expresado en calificaciones dentro de una escala convencional; es decir, se refiere al resultado cuantitativo que se obtiene en el proceso de aprendizaje de conocimientos, mediante evaluaciones y otras actividades que realiza el docente. Este es el indicador de calidad más importante de la labor académica de las universidades. </i>
+</div>
+
+<span style="padding-left:30px">
+
+<center><img src="figs/1_RendimientoAcademico_Meme.jpg" width="60%"></center>
+

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589715831206.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B5DCDAEA",
+    "lastKnownWriteTime" : 1589717805,
+    "last_content_update" : 1589717805568,
+    "path" : "D:/CONFERENCIAS/PrediccionRendimientoAcademico/modals/1_RendimientoAcademico.Rmd",
+    "project_path" : "1_RendimientoAcademico.Rmd",
+    "properties" : {
+        "cursorPosition" : "29,396",
+        "scrollLine" : "20"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,9 +1,0 @@
----
-title: 
-params:
-  csv: svg/svg_links.csv
-  svg: svg/cinms_pelagic.svg
----
-
-Citado de: http://bibdigital.epn.edu.ec/handle/15000/20718
-```{r svg, child = '_svg-html_child.Rmd'}

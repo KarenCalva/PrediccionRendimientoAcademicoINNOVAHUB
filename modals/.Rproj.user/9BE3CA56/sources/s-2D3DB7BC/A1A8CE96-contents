@@ -1,0 +1,10 @@
+---
+title: 
+params:
+  csv: svg/svg_links.csv
+  svg: svg/cinms_pelagic.svg
+---
+
+### Modelo de predicción e inferencia del rendimiento académico a partir de un modelo de aprendizaje supervizado automatizado en R.
+Citado de: http://bibdigital.epn.edu.ec/handle/15000/20718
+```{r svg, child = '_svg-html_child.Rmd'}

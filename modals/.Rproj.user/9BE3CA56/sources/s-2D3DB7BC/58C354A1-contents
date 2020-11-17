@@ -1,0 +1,9 @@
+name: "PrediccionRendimientoAcademico"
+navbar:
+  title: "Festival Latinoamericano de Instalación de Software Libre. Ecuador 2020"
+  left:
+    - text: "Agoritmos se selección genética y de gradient boosting machine."
+      href: index.html
+    - text: "Expositor"
+      href: about.html
+output_dir: "docs"

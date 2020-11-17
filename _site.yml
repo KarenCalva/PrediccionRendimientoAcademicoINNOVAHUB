@@ -1,9 +1,0 @@
-name: "PrediccionRendimientoAcademico"
-navbar:
-  title: "INNOVAHUB: Semana de la inovación y el emprendimiento."
-  left:
-    - text: "Modelos predictivos y su impacto"
-      href: index.html
-    - text: "Expositor"
-      href: about.html
-output_dir: "docs"

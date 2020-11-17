@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589715178747.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4132341854",
+    "id" : "89466AEB",
+    "lastKnownWriteTime" : 1585065432,
+    "last_content_update" : 1585065432,
+    "path" : "D:/CONFERENCIAS/PrediccionRendimientoAcademico/modals/ShinyApp.Rmd",
+    "project_path" : "ShinyApp.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
